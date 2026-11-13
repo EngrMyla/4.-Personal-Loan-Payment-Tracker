@@ -137,7 +137,7 @@ def generate_svg_summary(debt_records):
     <text x="190" y="104" class="title">My Journey to a Debt-Free Future</text>
     <text x="190" y="132" class="subtitle">A python application by EngrMyla</text>
 
-    <ellipse cx="770" cy="102" rx="58" ry="22" fill="#cfe8ff"/>
+    <ellipse cx="770" cy="102" rx="58" ry="22" fill="#4B2E5D"/>
     <text x="770" y="108" class="badge" text-anchor="middle">{status}</text>
     <text x="770" y="140" class="stamp" text-anchor="middle">as of {readable_timestamp}</text>
   </g>
@@ -148,17 +148,17 @@ def generate_svg_summary(debt_records):
     <rect x="484" y="170" width="180" height="72" rx="18" fill="#fff0d6"/>
     <rect x="678" y="170" width="180" height="72" rx="18" fill="#f7dfee"/>
 
-    <text x="116" y="197" class="label">Total Debt</text>
-    <text x="116" y="220" class="money">{format_money(total_debt)}</text>
+    <text x="116" y="197" class="label">Entries</text>
+    <text x="116" y="220" class="money">{len(debt_records)}{' bank' if len(debt_records) == 1 else ' banks' if len(debt_records) != 0 else ' banks'}</text>
 
-    <text x="310" y="197" class="label">Total Paid</text>
-    <text x="310" y="220" class="money">{format_money(total_paid)}</text>
+    <text x="310" y="197" class="label">Total Debt</text>
+    <text x="310" y="220" class="money">{format_money(total_debt)}</text>
 
-    <text x="504" y="197" class="label">Remaining</text>
-    <text x="504" y="220" class="money">{format_money(remaining_balance)}</text>
+    <text x="504" y="197" class="label">Total Paid</text>
+    <text x="504" y="220" class="money">{format_money(total_paid)}</text>
 
-    <text x="698" y="197" class="label">Entries</text>
-    <text x="698" y="220" class="money">{len(debt_records)}{' bank' if len(debt_records) == 1 else ' banks' if len(debt_records) != 0 else ' banks'}</text>
+    <text x="698" y="197" class="label">Remaining</text>
+    <text x="698" y="220" class="money">{format_money(remaining_balance)}</text>
   </g>
 
   <g>
@@ -182,12 +182,12 @@ def generate_svg_summary(debt_records):
 
     <line x1="118" y1="{350 + visible_rows * 48}" x2="774" y2="{350 + visible_rows * 48}" stroke="#dfe5f4" stroke-width="2"/>
 
-    <rect x="604" y="{total_box_y}" width="170" height="34" rx="17" fill="#dff6ec"/>
+    <rect x="604" y="{total_box_y}" width="170" height="34" rx="17" fill="#fff0d6"/>
     <text x="689" y="{total_box_y + 22}" class="total" text-anchor="middle">{format_money(remaining_balance)}</text>
   </g>
 
   <g>
-    <text x="450" y="{footer_y}" text-anchor="middle" class="note">Yeeeyyy! I'm on my way to financial independence. Keep going — I've got this! ✨💛</text>
+    <text x="450" y="{footer_y}" text-anchor="middle" class="note">Yeeeyyy! I'm on my way to financial independence. Keep going — I got this! ✨❤️</text>
   </g>
 </svg>
 """
