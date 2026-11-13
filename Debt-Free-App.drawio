@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="tsyXt-wpp7xzRvVeziP4">
+    <mxGraphModel dx="1178" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EB7CXUZeFt2O5iQYjv2H-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Loan Payment Calculator &lt;br&gt;&lt;br&gt;General Process Flow" vertex="1">
+          <mxGeometry height="70" width="270" x="30" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EB7CXUZeFt2O5iQYjv2H-10" edge="1" parent="1" source="EB7CXUZeFt2O5iQYjv2H-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="EB7CXUZeFt2O5iQYjv2H-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EB7CXUZeFt2O5iQYjv2H-12" edge="1" parent="1" source="EB7CXUZeFt2O5iQYjv2H-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="EB7CXUZeFt2O5iQYjv2H-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EB7CXUZeFt2O5iQYjv2H-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="List Loans and Their Amounts" vertex="1">
+          <mxGeometry height="60" width="120" x="50" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="EB7CXUZeFt2O5iQYjv2H-11" edge="1" parent="1" source="EB7CXUZeFt2O5iQYjv2H-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="EB7CXUZeFt2O5iQYjv2H-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EB7CXUZeFt2O5iQYjv2H-14" edge="1" parent="1" source="EB7CXUZeFt2O5iQYjv2H-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="EB7CXUZeFt2O5iQYjv2H-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EB7CXUZeFt2O5iQYjv2H-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Option to Initiate Payment" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="EB7CXUZeFt2O5iQYjv2H-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Create a Tabulation of Loan vs Payment vs Balance Excel" vertex="1">
+          <mxGeometry height="60" width="120" x="450" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="EB7CXUZeFt2O5iQYjv2H-13" edge="1" parent="1" source="EB7CXUZeFt2O5iQYjv2H-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="EB7CXUZeFt2O5iQYjv2H-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EB7CXUZeFt2O5iQYjv2H-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="List Loan Bank" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="EB7CXUZeFt2O5iQYjv2H-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="List Loan Amount" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="EB7CXUZeFt2O5iQYjv2H-15" edge="1" parent="1" source="EB7CXUZeFt2O5iQYjv2H-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="EB7CXUZeFt2O5iQYjv2H-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EB7CXUZeFt2O5iQYjv2H-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Select Loan Bank" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="EB7CXUZeFt2O5iQYjv2H-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Select Payment Amount" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="EB7CXUZeFt2O5iQYjv2H-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Personal Loan Payment Calculator &lt;br&gt;&lt;br&gt;Application Options" vertex="1">
+          <mxGeometry height="70" width="270" x="30" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="EB7CXUZeFt2O5iQYjv2H-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="1. List Loans&lt;div&gt;2. View Loans&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;(Bank + Amount + Balance)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;3. Select Payment&lt;/div&gt;&lt;div&gt;4. Create Report&lt;br&gt;5. Exit&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="240" x="90" y="700" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
